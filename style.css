@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+
+.bubble img{
+ width: 50px;
+ animation: bubble 7s linear infinite ;
+ display: flex;
+}
+
+.bubble{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: -50px;
+    margin: 0 20px;
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubble img:nth-child(1){
+    animation-delay: 2s;
+    width: 45px;
+}
+.bubble img:nth-child(2){
+    animation-delay: 5s;
+    width: 20px;
+}
+.bubble img:nth-child(3){
+    animation-delay: 3s;
+    width: 30px;
+}
+.bubble img:nth-child(4){
+    animation-delay: 1s;
+    width: 16px;
+}
+.bubble img:nth-child(5){
+    animation-delay: 0.5s;
+    width: 25px;
+}
+.bubble img:nth-child(6){
+    animation-delay: 4s;
+    width: 10px;
+}
+.bubble img:nth-child(7){
+    animation-delay: 3.4s;
+    width: 40px;
+}
+.bubble img:nth-child(8){
+width: 30px;}
+.bubble img:nth-child(9){
+    animation-delay: -1s;
+    width: 60px;
+}
+.bubble img:nth-child(10){
+    animation-delay: 1.2s;
+    width: 45px;
+}
+.bubble img:nth-child(11){
+    animation-delay: 5.5s;
+    width: 22px;
+}
+.bubble img:nth-child(12){
+    animation-delay: -2s;
+    width: 10px;
+}
+.bubble img:nth-child(13){
+    animation-delay: 3s;
+    width: 28px;
+}
+.bubble img:nth-child(14){
+    animation-delay: 1.5s;
+    width: 15px;
+}
+.bubble img:nth-child(15){
+    width: 35px;
+}
